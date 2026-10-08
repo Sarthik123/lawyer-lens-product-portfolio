@@ -9,14 +9,19 @@
 
 ## 1. Problem
 
-TODO: describe the problem in 2–3 sentences, using evidence. Starting point: 8 of 17 uploads failed (47%) on 7–8 Oct 2026, and both mobile attempts failed.
+Uploads fail. 8 of 17 upload attempts (47%) failed. One real user tried twice within 2 minutes, both uploads got stuck, and they never saw an analysis.
+
+Only about 4 real outside users exist, so the numbers are small. Treat them as an early signal, not proof.
+
+A failed upload means no analysis, so no question and no activation. No outside user has asked a question yet. Retention is too early to measure.
 
 ## 2. Goals
 
 | Goal | Metric | Target |
 |---|---|---|
-| TODO | TODO | TODO |
-| TODO | TODO | TODO |
+| Fewer Upload failures | Upload failure rate | From 47% to under 10% within 2 weeks  |
+| Guardrail: keep answers good | Eval score | Stays at 18/20 or higher  |
+
 
 ## 3. Non-goals
 

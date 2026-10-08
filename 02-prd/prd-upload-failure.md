@@ -25,16 +25,14 @@ A failed upload means no analysis, so no question and no activation. No outside 
 
 ## 3. Non-goals
 
-- TODO
-- TODO
+- Redesigning the UI/UX. This release fixes upload reliability only.
+- Blocking non-legal documents (document-type detection). Tracked as a separate backlog item.
 
 ## 4. User stories
 
-| ID | As a… | I want to… | So that… |
-|---|---|---|---|
-| US-1 | TODO | TODO | TODO |
-| US-2 | TODO | TODO | TODO |
-| US-3 | TODO | TODO | TODO |
+
+| US-1 | user | upload a document and have it finish processing without errors or crashes | I get my analysis, including for long documents 
+| US-2 | user | see a clear message and a retry option if an upload fails | I'm not left stuck guessing what happened |
 
 ## 5. Requirements
 

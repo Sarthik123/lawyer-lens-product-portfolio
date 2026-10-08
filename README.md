@@ -34,7 +34,7 @@ Upload a PDF and Lawyer Lens returns a **summary, key points, risks, and missing
 | Activated (saw results and asked a question) | 1 of 6 | The one activated user is most likely the founder testing |
 | Upload attempts | 17 | |
 | **Upload failure rate** | **47% (8 of 17)** | Mobile: 2 of 2 failed; desktop: 6 of 15 |
-| AI answer accuracy, eval v1 → v2 | **8/20 → 16/20** | 20 questions on a sample lease deed |
+| AI answer accuracy, eval v1 → v2 → v3 | **8/20 → 16/20 → 18/20 (90%)** | 20 questions on a sample lease deed; v3 re-tested the 4 v2 failures and 2 now pass (16 + 2 = 18) |
 
 **Upload fix:** failed uploads never reached the server, so the cause was in the browser. The fix shipped on 7 Oct 2026: the file is copied into memory before upload, network errors retry automatically, and users see the real error. Post-fix failure rate: _TODO — measure once 1–2 weeks of post-fix data exist._
 

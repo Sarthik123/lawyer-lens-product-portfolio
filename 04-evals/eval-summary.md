@@ -6,9 +6,11 @@
 |---|---|---|
 | v1 (baseline) | **8 / 20** (40%) | — |
 | v2 (after fixes) | **16 / 20** (80%) | **+8 answers, accuracy doubled** |
-| v3 (follow-up spot check) | 2 / 4 | _TODO: describe what v3 covered_ |
+| v3 (re-test of v2 failures) | **18 / 20** (90%) | +2: re-tested the 4 questions that failed in v2; 2 of 4 now pass (16 + 2 = 18) |
 
 Raw data: [eval-v1.csv](eval-v1.csv) · [eval-v2.csv](eval-v2.csv) · [eval-v3.csv](eval-v3.csv)
+
+> **Note:** `eval-v1.csv` contains only 6 of the 20 questions. The full results are in the Google Sheet.
 
 ## 1. Method
 
@@ -86,6 +88,6 @@ One fix, "drop any quoted line that doesn't end in punctuation," broke answers o
 ## 5. Limitations and next steps
 
 - **One document.** Every question comes from a single lease template. _TODO: add NDAs, employment, and service agreements, plus at least one scanned PDF._
-- **Partial v1 log.** The v1 file records 6 of the 20 graded questions. _TODO: export the full 20-row v1 and v2 sheets._
+- **Partial v1 log.** The v1 file records 6 of the 20 graded questions; the full results are in the Google Sheet.
 - **Manual grading.** One person graded every answer. _TODO: double-grade a sample to check agreement._
 - **Target for v3+:** at least 18/20 on the expanded set, with no fabricated facts and no placeholders shown as answers.

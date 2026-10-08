@@ -63,14 +63,14 @@ Legal answers are only useful if they are checkable. Three rules shape the produ
 
 ## 6. Results
 
-### 6.1 AI answer quality: 8/20 → 16/20
+### 6.1 AI answer quality: 8/20 → 16/20 → 18/20
 
 The first evaluation (20 questions on a sample lease deed) scored **8/20**. The failures had two clear patterns:
 
 - **Cut-off quotes:** answers ended mid-sentence ("…charged thereon in") because PDF line breaks split sentences.
 - **Placeholders returned as answers:** template blanks such as `upto __________ years` or `(Name of the Owner)` were presented as facts.
 
-Fixes shipped: answer-first formatting with complete quotes, routing cut-off or blank lines to the LLM, explicit placeholder rules, and a final check that replaces any leftover placeholder with "This is left blank in the document." The second evaluation scored **16/20**. Details: [eval summary](../04-evals/eval-summary.md).
+Fixes shipped: answer-first formatting with complete quotes, routing cut-off or blank lines to the LLM, explicit placeholder rules, and a final check that replaces any leftover placeholder with "This is left blank in the document." The second evaluation scored **16/20**. A third run (v3) re-tested the 4 questions that failed in v2; 2 of 4 now pass, for **18/20 (90%)**. Details: [eval summary](../04-evals/eval-summary.md).
 
 ### 6.2 Upload reliability: 47% failure rate → fixed
 

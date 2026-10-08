@@ -1,0 +1,8 @@
+,,,,
+,,,,
+,,,,
+,,,,
+,,,Score: / 20 correct,16
+,,,What it got wrong most,It seems like it was just extracting text and not able to understand context
+,,,One fix I'd make,Reduce the e; improve context
+,,,Failure type,"Incomplete - 3, Wrong section - 1"

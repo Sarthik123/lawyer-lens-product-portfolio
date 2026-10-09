@@ -16,11 +16,13 @@ Existing legal AI tools (enterprise legal research and drafting platforms) targe
 
 ## 3. Users
 
-| Persona | Job to be done | Biggest fear |
-|---|---|---|
-| Small-business owner | "Tell me who pays for what and how I can exit this lease." | Hidden costs or one-sided clauses |
-| Startup founder | "Review this NDA or service agreement before I sign today." | Unlimited liability, lock-in |
-| Individual | "Explain my rental or employment agreement in plain language." | Being misled by a confident wrong answer |
+**Phase 1:** startup founders and small business owners in India who sign NDAs, vendor and hiring contracts. **Phase 2:** tenants with rental agreements. See the [strategy](strategy.md) and [GTM plan](../09-gtm/gtm-onboarding-plan.md).
+
+| Phase | Persona | Job to be done | Biggest fear |
+|---|---|---|---|
+| 1 | Startup founder | "Review this NDA or vendor contract before I sign today." | Unlimited liability, lock-in |
+| 1 | Small business owner | "Tell me who pays for what and how I can exit this vendor contract." | Hidden costs or one-sided clauses |
+| 2 | Tenant | "Explain my rental agreement in plain language." | Being misled by a confident wrong answer |
 
 ## 4. Solution
 

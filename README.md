@@ -14,11 +14,13 @@ Individuals, startup founders, and small-business owners regularly sign legal do
 
 ## Who it's for
 
-| Persona | Typical document | What they need |
-|---|---|---|
-| Small-business owner | Lease deed, vendor agreement | Who pays what, how to exit, hidden risks |
-| Startup founder | NDA, service agreement | Fast review before signing |
-| Individual | Rental or employment agreement | Plain-language answers they can trust |
+**Phase 1:** startup founders and small business owners in India who sign NDAs, vendor and hiring contracts. **Phase 2:** tenants with rental agreements. See the [strategy](01-case-study/strategy.md) and [GTM plan](09-gtm/gtm-onboarding-plan.md).
+
+| Phase | Persona | Typical document | What they need |
+|---|---|---|---|
+| 1 | Startup founder | NDA, vendor or hiring contract | Fast review before signing |
+| 1 | Small business owner | Vendor or hiring contract | Who pays what, how to exit, hidden risks |
+| 2 | Tenant | Rental agreement | Plain-language answers they can trust |
 
 ## The solution
 
@@ -44,7 +46,7 @@ Upload a PDF and Lawyer Lens returns a **summary, key points, risks, and missing
 
 | Folder | Contents |
 |---|---|
-| [01-case-study](01-case-study/case-study.md) | Full case study: problem, approach, decisions, results, learnings |
+| [01-case-study](01-case-study/case-study.md) | Full case study: problem, approach, decisions, results, learnings; [strategy](01-case-study/strategy.md) |
 | [02-prd](02-prd/prd-upload-failure.md) | PRD for the upload-failure fix _(template, in progress)_ |
 | [03-metrics](03-metrics/metrics.md) | North Star, AARRR funnel, metric definitions, [SQL queries](03-metrics/sql/), [screenshots](03-metrics/screenshots/) |
 | [04-evals](04-evals/eval-summary.md) | AI answer-quality evaluation: method, rubric, v1 → v2 results |
@@ -52,4 +54,4 @@ Upload a PDF and Lawyer Lens returns a **summary, key points, risks, and missing
 | [06-roadmap](06-roadmap/rice-roadmap.md) | RICE-scored roadmap _(template)_ |
 | [07-experiments](07-experiments/ab-test-plan.md) | A/B test plan _(template)_ |
 | [08-testing](08-testing/uat-test-cases.md) | UAT test cases _(template)_ |
-| [09-gtm](09-gtm/gtm-onboarding-plan.md) | Go-to-market and onboarding plan _(template)_ |
+| [09-gtm](09-gtm/gtm-onboarding-plan.md) | Go-to-market and onboarding plan |

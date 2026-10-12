@@ -9,7 +9,7 @@
 
 ## 1. Problem
 
-Uploads fail. 8 of 17 upload attempts (47%) failed. One real user tried twice within 2 minutes, both uploads got stuck, and they never saw an analysis.
+Uploads fail. 8 of 29 upload attempts (28%) failed. One real user tried twice within 2 minutes, both uploads got stuck, and they never saw an analysis.
 
 Only about 4 real outside users exist, so the numbers are small. Treat them as an early signal, not proof.
 
@@ -19,7 +19,7 @@ A failed upload means no analysis, so no question and no activation. No outside 
 
 | Goal | Metric | Target |
 |---|---|---|
-| Fewer Upload failures | Upload failure rate | From 47% to under 10% within 2 weeks  |
+| Fewer Upload failures | Upload failure rate | From 28% to under 10% within 2 weeks  |
 | Guardrail: keep answers good | Eval score | Stays at 18/20 or higher  |
 
 
@@ -54,7 +54,7 @@ A failed upload means no analysis, so no question and no activation. No outside 
 
 | Metric | Baseline | Target | How measured |
 |---|---|---|---|
-| Upload failure rate | 47% (8/17) | TODO | `upload_failed` ÷ `upload_started` in PostHog |
+| Upload failure rate | 28% (8/29) | TODO | `upload_failed` ÷ `upload_started` in PostHog |
 | TODO | TODO | TODO | TODO |
 
 ## 7. Risks and mitigations

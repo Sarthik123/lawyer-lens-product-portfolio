@@ -76,7 +76,7 @@ Fixes shipped: answer-first formatting with complete quotes, routing cut-off or 
 
 ### 6.2 Upload reliability: 47% failure rate → fixed
 
-PostHog showed **8 of 29 upload attempts failed (47%)**, including **both mobile attempts**. Users saw only "Unable to reach the server."
+PostHog showed **8 of 17 upload attempts failed (47%)**, including **both mobile attempts**. Users saw only "Unable to reach the server."
 
 | Step | Finding |
 |---|---|
@@ -89,7 +89,7 @@ PostHog showed **8 of 29 upload attempts failed (47%)**, including **both mobile
 
 ### 6.3 Early usage (7–8 Oct 2026)
 
-62 unique visitors and 15 sessions. 4 visitors tried to upload, and 2 reached results and asked questions (78 questions across 7 documents). That one heavy user is almost certainly my own testing, so **real-user activation is not yet established**. See [metrics](../03-metrics/metrics.md).
+6 unique visitors and 15 sessions. 3 visitors tried to upload, and 1 reached results and asked questions (70 questions across 7 documents). That one heavy user is almost certainly my own testing, so **real-user activation is not yet established**. See [metrics](../03-metrics/metrics.md).
 
 ## 7. What I learned
 

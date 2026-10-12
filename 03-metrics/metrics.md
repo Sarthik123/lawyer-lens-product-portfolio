@@ -4,7 +4,7 @@
 **Source:** PostHog event export, 302 events. A sanitized copy is in [events-sanitized.csv](events-sanitized.csv) with person and session IDs, URL tokens, and document IDs removed.
 **Dashboard:** [Looker Studio](TODO-add-looker-studio-link) · [screenshot](screenshots/analytics-dashboard-2026-10-07.png)
 
-> **Read with care:** the sample is tiny, and one visitor (almost certainly the founder testing) generated 70 of 70 questions and 10 of 15 sessions. These numbers describe the launch window, not product-market fit.
+> **Read with care:** the sample is tiny, and one visitor (almost certainly the founder testing) generated 70 of 78 questions and 10 of 15 sessions. These numbers describe the launch window, not product-market fit.
 
 ---
 
@@ -34,7 +34,7 @@ Never sent: document text, file names, questions, AI answers, emails. Users are 
 
 | Stage | Definition | Value | Query |
 |---|---|---|---|
-| **Acquisition** | Unique visitors | **6** visitors, **15** sessions | [funnel.sql](sql/funnel.sql) |
+| **Acquisition** | Unique visitors | **62** visitors, **15** sessions | [funnel.sql](sql/funnel.sql) |
 | **Activation** | Visitor who viewed results *and* asked a question | **1 of 6** (17%) | [activation.sql](sql/activation.sql) |
 | **Retention** | Visitor active on more than one day | **1 of 6** | [repeat_users.sql](sql/repeat_users.sql) |
 | **Referral** | Visits referred by another user | Not tracked yet | — |
@@ -44,19 +44,19 @@ Never sent: document text, file names, questions, AI answers, emails. Users are 
 
 | Step | Events | Visitors |
 |---|---|---|
-| `upload_started` | 17 | 3 |
+| `upload_started` | 29 | 4 |
 | `upload_failed` | 8 | 3 |
 | `analysis_completed` | 3 | 1 |
-| `results_viewed` | 18 | 1 |
-| `question_asked` | 70 | 1 |
+| `results_viewed` | 36 | 2 |
+| `question_asked` | 78 | 2 |
 
-`results_viewed` (18) exceeds `analysis_completed` (3) because it also fires when a user reopens a document that was already processed.
+`results_viewed` (36) exceeds `analysis_completed` (3) because it also fires when a user reopens a document that was already processed.
 
 ### Upload failure rate
 
 | Segment | Failed / started | Rate |
 |---|---|---|
-| **All** | 8 / 17 | **47%** |
+| **All** | 8 / 29 | **28%** |
 | Desktop | 6 / 15 | 40% |
 | Mobile | 2 / 2 | 100% |
 
